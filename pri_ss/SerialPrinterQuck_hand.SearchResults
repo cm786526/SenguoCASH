@@ -1,0 +1,115 @@
+---- Warning_When_Not_Normal Matches (4 in 1 files) ----
+ConsoleActivity.java (d:\android_job\serialprinterquck_hand\src\android_serialport_api\sample3):	boolean Warning_When_Not_Normal()
+ConsoleActivity.java (d:\android_job\serialprinterquck_hand\src\android_serialport_api\sample3):			if(!Warning_When_Not_Normal())
+ConsoleActivity.java (d:\android_job\serialprinterquck_hand\src\android_serialport_api\sample3):			if(!Warning_When_Not_Normal())
+ConsoleActivity.java (d:\android_job\serialprinterquck_hand\src\android_serialport_api\sample3):    if(Warning_When_Not_Normal())
+---- Status_Buffer_Index Matches (5 in 1 files) ----
+ConsoleActivity.java (d:\android_job\serialprinterquck_hand\src\android_serialport_api\sample3):	int Status_Buffer_Index = 0;
+ConsoleActivity.java (d:\android_job\serialprinterquck_hand\src\android_serialport_api\sample3):					Status_Buffer[Status_Buffer_Index++]=buffer[i];
+ConsoleActivity.java (d:\android_job\serialprinterquck_hand\src\android_serialport_api\sample3):		Status_Buffer_Index=0;
+ConsoleActivity.java (d:\android_job\serialprinterquck_hand\src\android_serialport_api\sample3):			if(Status_Buffer_Index >0)
+ConsoleActivity.java (d:\android_job\serialprinterquck_hand\src\android_serialport_api\sample3):		Status_Buffer_Index=0;
+---- File Matches (113 in 10 files) ----
+Application.java (d:\android_job\serialprinterquck_hand\src\android_serialport_api\sample3): * you may not use this file except in compliance with the License.
+Application.java (d:\android_job\serialprinterquck_hand\src\android_serialport_api\sample3):import java.io.File;
+Application.java (d:\android_job\serialprinterquck_hand\src\android_serialport_api\sample3):			mSerialPort = new SerialPort(new File(path), baudrate, 0);
+BuildConfig.java (d:\android_job\serialprinterquck_hand\gen\android_serialport_api\sample3):/** Automatically generated file. DO NOT MODIFY */
+ConsoleActivity.java (d:\android_job\serialprinterquck_hand\src\android_serialport_api\sample3): * you may not use this file except in compliance with the License.
+ConsoleActivity.java (d:\android_job\serialprinterquck_hand\src\android_serialport_api\sample3):	public static int BinFileNum = 0;
+ConsoleActivity.java (d:\android_job\serialprinterquck_hand\src\android_serialport_api\sample3):	public static File BinFile;
+ConsoleActivity.java (d:\android_job\serialprinterquck_hand\src\android_serialport_api\sample3):									BinFileNum=R.raw.hdx922;
+ConsoleActivity.java (d:\android_job\serialprinterquck_hand\src\android_serialport_api\sample3):									BinFileNum=R.raw.hdx923;
+ConsoleActivity.java (d:\android_job\serialprinterquck_hand\src\android_serialport_api\sample3):									BinFileNum=R.raw.hdx_929;
+ConsoleActivity.java (d:\android_job\serialprinterquck_hand\src\android_serialport_api\sample3):									BinFileNum=R.raw.hdx95_lp2015_1230;
+ConsoleActivity.java (d:\android_job\serialprinterquck_hand\src\android_serialport_api\sample3):									BinFileNum=R.raw.hdx_lp942;
+ConsoleActivity.java (d:\android_job\serialprinterquck_hand\src\android_serialport_api\sample3):								SDFileExplorer.FileType=0;
+ConsoleActivity.java (d:\android_job\serialprinterquck_hand\src\android_serialport_api\sample3):								Intent intent = new Intent(ConsoleActivity.this,SDFileExplorer.class);
+ConsoleActivity.java (d:\android_job\serialprinterquck_hand\src\android_serialport_api\sample3):						getResources().getString(R.string.ZiKuFile1),
+ConsoleActivity.java (d:\android_job\serialprinterquck_hand\src\android_serialport_api\sample3):									BinFileNum=R.raw.hdx_ziku_20151230;
+ConsoleActivity.java (d:\android_job\serialprinterquck_hand\src\android_serialport_api\sample3):								SDFileExplorer.FileType=1;
+ConsoleActivity.java (d:\android_job\serialprinterquck_hand\src\android_serialport_api\sample3):								Intent intent = new Intent(ConsoleActivity.this,SDFileExplorer.class);
+ConsoleActivity.java (d:\android_job\serialprinterquck_hand\src\android_serialport_api\sample3):		 if(SDFileExplorer.FileType ==0 )
+ConsoleActivity.java (d:\android_job\serialprinterquck_hand\src\android_serialport_api\sample3):					SendLongDataToUart(BinFileNum,start2,100,50);
+ConsoleActivity.java (d:\android_job\serialprinterquck_hand\src\android_serialport_api\sample3):					SendLongDataToUart(BinFile,start2,100,50);
+ConsoleActivity.java (d:\android_job\serialprinterquck_hand\src\android_serialport_api\sample3):			SendLongDataToUart(BinFileNum,cmdHead,30*1000,40);
+ConsoleActivity.java (d:\android_job\serialprinterquck_hand\src\android_serialport_api\sample3):			SendLongDataToUart(BinFile,cmdHead,30*1000,40);
+ConsoleActivity.java (d:\android_job\serialprinterquck_hand\src\android_serialport_api\sample3):	public void SendLongDataToUart(int fileID,byte [] command_head,int delay_time,int delay_time2 ) 
+ConsoleActivity.java (d:\android_job\serialprinterquck_hand\src\android_serialport_api\sample3):				InputStream is = r.openRawResource(fileID);
+ConsoleActivity.java (d:\android_job\serialprinterquck_hand\src\android_serialport_api\sample3):				Log.e("quck2", " read file is .available()= "+ count  );	
+ConsoleActivity.java (d:\android_job\serialprinterquck_hand\src\android_serialport_api\sample3):				//send bin file
+ConsoleActivity.java (d:\android_job\serialprinterquck_hand\src\android_serialport_api\sample3):	public void SendLongDataToUart(File file,byte [] command_head,int delay_time,int delay_time2 ) 
+ConsoleActivity.java (d:\android_job\serialprinterquck_hand\src\android_serialport_api\sample3):		FileInputStream is ;
+ConsoleActivity.java (d:\android_job\serialprinterquck_hand\src\android_serialport_api\sample3):				is  = new FileInputStream(file);
+ConsoleActivity.java (d:\android_job\serialprinterquck_hand\src\android_serialport_api\sample3):				Log.e("quck2", " read file is .available()= "+ count  );	
+ConsoleActivity.java (d:\android_job\serialprinterquck_hand\src\android_serialport_api\sample3):				//send bin file
+Line.xml (d:\android_job\serialprinterquck_hand\res\layout):<TextView android:id="@+id/file_name"
+R.java (d:\android_job\serialprinterquck_hand\gen\android_serialport_api\sample3):/* AUTO-GENERATED FILE.  DO NOT MODIFY.
+R.java (d:\android_job\serialprinterquck_hand\gen\android_serialport_api\sample3):        public static final int file=0x7f020000;
+R.java (d:\android_job\serialprinterquck_hand\gen\android_serialport_api\sample3):        public static final int file_name=0x7f080009;
+R.java (d:\android_job\serialprinterquck_hand\gen\android_serialport_api\sample3):        public static final int ZiKuFile1=0x7f070005;
+SDFileExplorer.java (d:\android_job\serialprinterquck_hand\src\android_serialport_api\sample3):import java.io.File;
+SDFileExplorer.java (d:\android_job\serialprinterquck_hand\src\android_serialport_api\sample3):import java.io.FileInputStream;
+SDFileExplorer.java (d:\android_job\serialprinterquck_hand\src\android_serialport_api\sample3):public class SDFileExplorer extends Activity
+SDFileExplorer.java (d:\android_job\serialprinterquck_hand\src\android_serialport_api\sample3):	final String TAG="SDFileExplorer";
+SDFileExplorer.java (d:\android_job\serialprinterquck_hand\src\android_serialport_api\sample3):	static int FileType=0;
+SDFileExplorer.java (d:\android_job\serialprinterquck_hand\src\android_serialport_api\sample3):	File currentParent;
+SDFileExplorer.java (d:\android_job\serialprinterquck_hand\src\android_serialport_api\sample3):	File[] currentFiles;
+SDFileExplorer.java (d:\android_job\serialprinterquck_hand\src\android_serialport_api\sample3):		File root = new File(OpenDirConst);
+SDFileExplorer.java (d:\android_job\serialprinterquck_hand\src\android_serialport_api\sample3):		File[] tmp = root.listFiles();
+SDFileExplorer.java (d:\android_job\serialprinterquck_hand\src\android_serialport_api\sample3):			currentFiles = root.listFiles();
+SDFileExplorer.java (d:\android_job\serialprinterquck_hand\src\android_serialport_api\sample3):			inflateListView(currentFiles);	
+SDFileExplorer.java (d:\android_job\serialprinterquck_hand\src\android_serialport_api\sample3):			root = new File(OpenDirConst2);
+SDFileExplorer.java (d:\android_job\serialprinterquck_hand\src\android_serialport_api\sample3):			currentFiles = root.listFiles();
+SDFileExplorer.java (d:\android_job\serialprinterquck_hand\src\android_serialport_api\sample3):			inflateListView(currentFiles);			
+SDFileExplorer.java (d:\android_job\serialprinterquck_hand\src\android_serialport_api\sample3):			private FileInputStream is;
+SDFileExplorer.java (d:\android_job\serialprinterquck_hand\src\android_serialport_api\sample3):				if (currentFiles[position].isFile())
+SDFileExplorer.java (d:\android_job\serialprinterquck_hand\src\android_serialport_api\sample3):					Log.d(TAG," file name :" +currentFiles[position].getName());
+SDFileExplorer.java (d:\android_job\serialprinterquck_hand\src\android_serialport_api\sample3):						Log.d(TAG," file name :" +currentFiles[position].getCanonicalPath());
+SDFileExplorer.java (d:\android_job\serialprinterquck_hand\src\android_serialport_api\sample3):						//FileInputStream is = openFileInput(currentFiles[position].getCanonicalPath());
+SDFileExplorer.java (d:\android_job\serialprinterquck_hand\src\android_serialport_api\sample3):						File file = new File(currentFiles[position].getCanonicalPath());
+SDFileExplorer.java (d:\android_job\serialprinterquck_hand\src\android_serialport_api\sample3):						is = new FileInputStream(file);
+SDFileExplorer.java (d:\android_job\serialprinterquck_hand\src\android_serialport_api\sample3):						ConsoleActivity.BinFile=file;
+SDFileExplorer.java (d:\android_job\serialprinterquck_hand\src\android_serialport_api\sample3):						Log.d(TAG," file name :" +count);
+SDFileExplorer.java (d:\android_job\serialprinterquck_hand\src\android_serialport_api\sample3):						if(SDFileExplorer.FileType==0)
+SDFileExplorer.java (d:\android_job\serialprinterquck_hand\src\android_serialport_api\sample3):							String strTemp=currentFiles[position].getName();
+SDFileExplorer.java (d:\android_job\serialprinterquck_hand\src\android_serialport_api\sample3):							String strTemp=currentFiles[position].getName();
+SDFileExplorer.java (d:\android_job\serialprinterquck_hand\src\android_serialport_api\sample3):						SDFileExplorer.this.setResult(1, intent);
+SDFileExplorer.java (d:\android_job\serialprinterquck_hand\src\android_serialport_api\sample3):						SDFileExplorer.this.finish();
+SDFileExplorer.java (d:\android_job\serialprinterquck_hand\src\android_serialport_api\sample3):				File[] tmp = currentFiles[position].listFiles();
+SDFileExplorer.java (d:\android_job\serialprinterquck_hand\src\android_serialport_api\sample3):					Log.d(TAG," file name :" +currentFiles[position].getName());
+SDFileExplorer.java (d:\android_job\serialprinterquck_hand\src\android_serialport_api\sample3):					Toast.makeText(SDFileExplorer.this
+SDFileExplorer.java (d:\android_job\serialprinterquck_hand\src\android_serialport_api\sample3):					currentParent = currentFiles[position]; //②
+SDFileExplorer.java (d:\android_job\serialprinterquck_hand\src\android_serialport_api\sample3):					currentFiles = tmp;
+SDFileExplorer.java (d:\android_job\serialprinterquck_hand\src\android_serialport_api\sample3):					inflateListView(currentFiles);
+SDFileExplorer.java (d:\android_job\serialprinterquck_hand\src\android_serialport_api\sample3):						currentParent = currentParent.getParentFile();
+SDFileExplorer.java (d:\android_job\serialprinterquck_hand\src\android_serialport_api\sample3):						currentFiles = currentParent.listFiles();
+SDFileExplorer.java (d:\android_job\serialprinterquck_hand\src\android_serialport_api\sample3):						inflateListView(currentFiles);
+SDFileExplorer.java (d:\android_job\serialprinterquck_hand\src\android_serialport_api\sample3):	private void inflateListView(File[] files) //①
+SDFileExplorer.java (d:\android_job\serialprinterquck_hand\src\android_serialport_api\sample3):		for (int i = 0; i < files.length; i++)
+SDFileExplorer.java (d:\android_job\serialprinterquck_hand\src\android_serialport_api\sample3):			// 如果当前File是文件夹，使用folder图标；否则使用file图标
+SDFileExplorer.java (d:\android_job\serialprinterquck_hand\src\android_serialport_api\sample3):			if (files[i].isDirectory())
+SDFileExplorer.java (d:\android_job\serialprinterquck_hand\src\android_serialport_api\sample3):				listItem.put("icon", R.drawable.file);
+SDFileExplorer.java (d:\android_job\serialprinterquck_hand\src\android_serialport_api\sample3):			listItem.put("fileName", files[i].getName());
+SDFileExplorer.java (d:\android_job\serialprinterquck_hand\src\android_serialport_api\sample3):			, new String[]{ "icon", "fileName" }
+SDFileExplorer.java (d:\android_job\serialprinterquck_hand\src\android_serialport_api\sample3):			, new int[]{R.id.icon, R.id.file_name });
+SerialPort.java (d:\android_job\serialprinterquck_hand\src\android_serialport_api): * you may not use this file except in compliance with the License.
+SerialPort.java (d:\android_job\serialprinterquck_hand\src\android_serialport_api):import java.io.File;
+SerialPort.java (d:\android_job\serialprinterquck_hand\src\android_serialport_api):import java.io.FileDescriptor;
+SerialPort.java (d:\android_job\serialprinterquck_hand\src\android_serialport_api):import java.io.FileInputStream;
+SerialPort.java (d:\android_job\serialprinterquck_hand\src\android_serialport_api):import java.io.FileOutputStream;
+SerialPort.java (d:\android_job\serialprinterquck_hand\src\android_serialport_api):	private FileDescriptor mFd;
+SerialPort.java (d:\android_job\serialprinterquck_hand\src\android_serialport_api):	private FileInputStream mFileInputStream;
+SerialPort.java (d:\android_job\serialprinterquck_hand\src\android_serialport_api):	private FileOutputStream mFileOutputStream;
+SerialPort.java (d:\android_job\serialprinterquck_hand\src\android_serialport_api):	public SerialPort(File device, int baudrate, int flags) throws SecurityException, IOException {
+SerialPort.java (d:\android_job\serialprinterquck_hand\src\android_serialport_api):				// Missing read/write permission, trying to chmod the file 
+SerialPort.java (d:\android_job\serialprinterquck_hand\src\android_serialport_api):		mFileInputStream = new FileInputStream(mFd);
+SerialPort.java (d:\android_job\serialprinterquck_hand\src\android_serialport_api):		mFileOutputStream = new FileOutputStream(mFd);
+SerialPort.java (d:\android_job\serialprinterquck_hand\src\android_serialport_api):		return mFileInputStream;
+SerialPort.java (d:\android_job\serialprinterquck_hand\src\android_serialport_api):		return mFileOutputStream;
+SerialPort.java (d:\android_job\serialprinterquck_hand\src\android_serialport_api):	private native static FileDescriptor open(String path, int baudrate, int flags);
+SerialPortActivity.java (d:\android_job\serialprinterquck_hand\src\android_serialport_api\sample3): * you may not use this file except in compliance with the License.
+Strings.xml (d:\android_job\serialprinterquck_hand\res\values):  	  <string name="ZiKuFile1">&quot;hdx_ziku_20151230&quot;</string>
+Strings.xml (d:\android_job\serialprinterquck_hand\res\values): 	<string name="app_name">File Explore</string>				
+Strings.xml (d:\android_job\serialprinterquck_hand\res\values):	<string name="selectFW">"Select FirmWare File"</string>
+Strings.xml (d:\android_job\serialprinterquck_hand\res\values):	<string name="hello">Hello World,  FileExplorer!</string>
+Strings.xml (d:\android_job\serialprinterquck_hand\res\values-zh):	<string name="hello">Hello World,  FileExplorer!</string>

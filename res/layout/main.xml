@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+<!-- 显示当前路径的的文本框 -->
+<TextView  
+	android:id="@+id/path"
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content" 
+	/>
+<!-- 返回上一级目录的按钮 android:background="@drawable/home  android:text="@string/CharDemo" "-->
+<Button android:id="@+id/parent"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="上层目录" 
+
+/>
+
+<!-- 列出当前路径下所有文件的ListView android:layout_centerHorizontal="true"-->
+<ListView  
+	android:id="@+id/list"
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:divider="#000"
+	android:dividerHeight="1px"
+	/>
+
+</LinearLayout>

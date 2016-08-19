@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TestMainActivity" >
+
+<!--     <Button
+        android:id="@+id/ButtonCharacterDemo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       	android:textSize="40sp"		
+        android:text="@string/CharDemo" /> -->
+
+  <!--   <Button
+        android:id="@+id/ButtonCodeDemo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"		
+        android:text="@string/CodeDemo" />
+
+    <Button
+        android:id="@+id/ButtonImageDemo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"		
+        android:text="@string/ImageDemo" />
+
+    <Button
+        android:id="@+id/GetVersion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"		
+        android:text="@string/GetVersion" />
+    <Button
+        android:id="@+id/UpdateVersion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"		
+        android:text="@string/UpdateVersion" />
+     <Button
+        android:id="@+id/UpdateFontLib"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"		
+        android:text="@string/UpdateFontLib" /> --> 
+<!--      <Button
+        android:id="@+id/quit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"		
+        android:text="@string/quit" /> -->
+           
+<!-- <TextView
+    android:id="@+id/TextViewSerialRx"
+    android:layout_width="match_parent"
+    android:layout_height="88dp"
+    android:textSize="20sp"		
+    android:layout_weight="0.45"
+    android:ems="10"
+    android:text="" /> -->
+
+</LinearLayout>

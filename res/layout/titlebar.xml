@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical"
+    android:orientation="horizontal" >
+
+    <ImageButton
+        android:id="@+id/lanya"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+       android:background="#00000000"
+        android:src="@drawable/shezhi" />
+
+     <TextView
+     android:id="@+id/app_text"
+     android:layout_width="157dp"
+     android:layout_height="40dp"
+     android:text="森果称重收银系统"
+     android:gravity="center"
+     android:textColor="#fff"
+     android:textSize="18dp"
+     android:layout_alignParentTop="true"
+     android:layout_centerHorizontal="true"
+     android:background="#00000000"/>
+     
+ <ImageButton
+     android:id="@+id/logout"
+     android:layout_width="80dp"
+     android:layout_height="40dp"
+     android:layout_alignParentRight="true"
+     android:layout_alignParentTop="true"
+  	android:background="#00000000"
+     android:src="@drawable/logout" />
+
+
+
+</RelativeLayout>
